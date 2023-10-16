@@ -7,12 +7,12 @@ function Troca() {
   if (html.classList.contains("light")) {
     imagem.setAttribute(
       "src",
-      "https://i.pinimg.com/1200x/f5/52/49/f552493293b28d240455e2c84db6b848.jpg"
+      "https://i.pinimg.com/1200x/6d/d2/84/6dd284cf9500fdb90ea48f6417831000.jpg"
     )
   } else {
     imagem.setAttribute(
       "src",
-      "https://i.pinimg.com/1200x/6d/d2/84/6dd284cf9500fdb90ea48f6417831000.jpg"
+      "https://i.pinimg.com/1200x/f5/52/49/f552493293b28d240455e2c84db6b848.jpg"
     )
   }
 }
