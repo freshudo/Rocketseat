@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="light"> <!-- root element -->
+  <head> <!-- Configurações do documento -->
+    <!-- Colocar fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <!-- Permiti caracteres especiais -->
+    <meta charset="UTF-8" />
+    <!-- Documento vai se adpatar para o dispositivo + zoom -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compet</title>
+    <!-- Linka o arquivo css ao projeto hmtl -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body> <!-- Corpo do documento -->
+    <div id="container">
+      <div id="profile">
+        <img src="https://i.pinimg.com/1200x/6d/d2/84/6dd284cf9500fdb90ea48f6417831000.jpg" lang="Sanji">
+        <div class="arroba">
+          <a>@O_Pae</a>
+        </div>
+      </div>
+
+      <div id="switch" onclick="Troca()">
+        <button></button><span></span>
+      </div>
+
+      <div id="links">
+        <ul>
+          <!--
+          <li><a href="...">LINK 1</a></li>
+          <li><a href="...">LINK 2</a></li>
+          <li><a href="...">LINK 3</a></li>
+          <li><a href="...">LINK 4</a></li>
+          -->
+          <a href="..." target="_blank">LINK 1</a>
+          <a href="..." target="_blank">LINK 2</a>
+          <a href="..." target="_blank">LINK 3</a>
+          <a href="..." target="_blank">LINK 4</a>
+        </ul>
+      </div>
+        
+      <div id="sociais">
+        <a href="https://instagram" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://instagram" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://instagram" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://instagram" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Feito por mim mesmo
+      </footer>
+    </div>
+
+  <!-- Permiti colocar os icones do ion-icon -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+  <!-- Linka o arquivo jss ao projeto html-->
+  <script src="./script.js"></script>
+  </body>
+</html>
