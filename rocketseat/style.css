@@ -34,6 +34,8 @@ body * {
 #container {
   /* border: 1px solid red; */
   margin: 56px 300px 0px;
+  width: 588px;
+  margin: auto;
 }
 
 #profile {

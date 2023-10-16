@@ -15,12 +15,4 @@ function Troca() {
       "https://i.pinimg.com/1200x/6d/d2/84/6dd284cf9500fdb90ea48f6417831000.jpg"
     )
   }
-
-  const arroba = document.querySelector("#profile a")
-
-  if (html.classList.contains("light")) {
-    arroba.setAttribute("a", "@Macaco_Luffy")
-  } else {
-    arroba.setAttribute("a", "@Vinsmoke_Sanji")
-  }
 }
